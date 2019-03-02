@@ -23,6 +23,7 @@ This is the [Simple (Suckless) Terminal (st)](https://st.suckless.org/) with som
 ```
 git clone https://github.com/remigourdon/st.git
 cd st/
+make
 sudo make install
 ```
 
