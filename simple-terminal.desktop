@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Simple (Suckless) Terminal
+GenericName=Terminal
+Comment=Simple (Suckless) Terminal Emulator
+StartupWMClass=st-256color
+Keywords=shell;prompt;command;commandline;cmd;
+Exec=st
+Terminal=false
+Type=Application
+Encoding=UTF-8
+Icon=utilities-terminal
+Categories=System;TerminalEmulator;
