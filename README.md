@@ -1,22 +1,23 @@
-# Personal Build of ST - Simple (Suckless) Terminal
+# Luke's build of st - the simple (suckless) terminal
 
 This version is forked from [Luke Smith's](https://github.com/LukeSmithxyz/st).
 
 This is the [Simple (Suckless) Terminal (st)](https://st.suckless.org/) with some additional features:
 
-* compatibility with `Xresources` and `pywal` for dynamic colors
-* default [gruvbox](https://github.com/morhetz/gruvbox) colors otherwise
-* transparency/alpha, which is also adjustable from `~/.Xresources`
-* default font is system "mono" at 16pt, meaning the font will match your system font
-* very useful keybinds including:
+* Compatibility with `Xresources` and `pywal` for dynamic colors
+* Default [gruvbox](https://github.com/morhetz/gruvbox) colors otherwise
+* Transparency/alpha, which is also adjustable from `~/.Xresources`
+* Default font is system "mono" at 16pt, meaning the font will match your system font
+* Very useful keybinds including:
   * Alt+c to copy, Alt+v to paste or Alt+p to paste from primary
   * Alt+l to feed all urls on screen to dmenu, so the user can choose and follow one (requires `xurls` and `dmenu` installed)
   * Alt+Shift+k/Alt+Shift+j to zoom in and out (Alt+Shift+u/Alt+Shift+d for larger intervals, Alt+Home to reset)
   * Alt+k/Alt+↑ and Alt+j/Alt+↓ to move up/down in the terminal (Shift+MouseWheel do the same)
   * Alt+u and Alt+d scroll back/forward in history one page at a time (Alt+PageUp and Alt+PageDown do the same)
-+ vertcenter
-+ scrollback
-+ updated to latest version 0.8.1
++ Vertcenter
++ Scrollback
++ font2
++ Updated to latest version 0.8.2
 
 ## Installation
 
@@ -51,4 +52,4 @@ For example, you can define your desired fonts, transparency or colors:
 ...
 ```
 
-The `alpha` value (for transparency) goes from *0* (transparent) to *255* (opaque).
+The `alpha` value (for transparency) goes from *0.0* (transparent) to *1.0* (opaque).

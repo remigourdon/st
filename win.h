@@ -23,13 +23,9 @@ enum win_mode {
 	                  |MODE_MOUSEMANY,
 };
 
-/* alpha */
-#define OPAQUE 0Xff
-#define USE_ARGB (alpha != OPAQUE && opt_embed == NULL)
-
 void xbell(void);
 void xclipcopy(void);
-void xdrawcursor(int, int, Glyph, int, int, Glyph);
+void xdrawcursor(int, int, Glyph, int, int, Glyph, Line, int);
 void xdrawline(Line, int, int, int);
 void xfinishdraw(void);
 void xloadcols(void);
@@ -40,3 +36,5 @@ void xsetmode(int, unsigned int);
 void xsetpointermotion(int);
 void xsetsel(char *);
 int xstartdraw(void);
+void xximspot(int, int);
+void xclearwin(void);
